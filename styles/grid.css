@@ -1,0 +1,26 @@
+#e { grid-area: e; }
+#a { grid-area: a; }
+#b { grid-area: b; }
+#c { grid-area: c; }
+#d { grid-area: d; }
+
+#grid {
+    display: grid;
+    grid-template-areas:
+        "e e e e"
+        "a a a a"
+        "b c d s";
+
+    grid-row-gap: 1rem;
+}
+
+@media (max-width: 512px) {
+    #grid {
+        grid-template-areas:
+            "e e e"
+            "a a a"
+            "b b b"
+            "c c c"
+            "d d d";
+    }
+}

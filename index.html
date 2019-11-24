@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head><link rel="stylesheet" href="normalize.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Garganthula</title>
+		<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+		<link rel="stylesheet" href="styles/helpers.css">
+		<link rel="stylesheet" href="styles/grid.css">
+					<style>
+
+/* background */		
+.hero {
+	background: black url(images/paintin1.jpg) center / cover;
+}
+
+@media (max-width: 1024px) { .hero { background: black url(images/paintin2.jpg) center / cover; } }
+@media (max-width:  768px) { .hero { background: black url(images/paintin3.jpg) center / cover; } }
+
+/* responsive */
+@media (max-width: 768px) {
+	:root {
+		font-size: 90%;
+	}
+}
+
+		</style>
+	</head>
+	<body>
+
+<!-- .hero -->
+<section class="hero is-fullheight">
+
+<!-- .hero-head -->
+<nav class="hero-head">
+	<div class="columns is-mobile is-marginless heading has-text-weight-bold">
+		<div class="column left">
+			<figure class="navbar-item image">
+				<img src="images/drawing.svg" style="width: 6.25rem; height: 1rem;">
+			</figure>
+		</div>
+		<div class="column center desktop">
+			<p class="navbar-item has-text-black">Crastion </p>
+			<p class="navbar-item has-text-black">Arconntium</p>
+			<p class="navbar-item has-text-white">Garganthula</p>
+		</div>
+		<div class="column right">
+			<p class="navbar-item desktop has-text-black desktop">SHOP   </p>
+			<p class="navbar-item desktop has-text-black desktop">SIGN IN</p>
+			<figure class="navbar-item image">
+				<i class="fas fa-3x fa-bars has-text-black"
+					style="width: 1rem; height: 1rem;"></i>
+			</figure>
+		</div>
+	</div>
+</nav>
+<!-- /.hero-head -->
+
+<!-- .hero-body -->
+<header class="hero-body">
+	<div class="is-overlay has-text-centered single-spaced" style="top: 92px;">
+		<h2 class="subtitle is-4 has-text-weight-light has-text-black">Ice Ecstasy</h2>
+		<h1 class="title is-1 has-text-black">Garganthula</h1>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+</header>
+<!-- /.hero-body -->
+
+
+
+<!-- .hero-foot -->
+<main class="hero-foot center" style="padding: 2rem;">
+	<div id="grid" style="width: 768px;">
+		<div id="e">
+			<div id="clockdiv">
+			  <div>
+				<span class="days"></span>
+				<div class="smalltext">Days</div>
+			  </div>
+			  <div>
+				<span class="hours"></span>
+				<div class="smalltext">Hours</div>
+			  </div>
+			  <div>
+				<span class="minutes"></span>
+				<div class="smalltext">Minutes</div>
+			  </div>
+			  <div>
+				<span class="seconds"></span>
+				<div class="smalltext">Seconds</div>
+			  </div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+
+		</div>
+	
+		<div id="a" class="center-column">
+			<p class="subtitle has-text-centered has-text-white">
+				Making things the cold way<br>
+			</p>
+			
+		</div>
+		<div id="b" class="center-column" >
+			<p class="title has-text-white">PVE Focused</span><span class="is-size-5"></span></p>
+			<p class="subtitle is-7 has-text-white">+300 Hours of gameplay</p>
+		</div>
+
+		<div id="c" class="center-column" >
+			<p class="title has-text-white">Smart Contract powered</span><span class="is-size-5"></span></p>
+			<p class="subtitle is-7 has-text-white">Decentralized service</p>
+		</div>
+
+
+		<div id="d" class="center-column" >
+			<p class="title has-text-white">F2P</span><span class="is-size-5"></span></p>
+			<p class="subtitle is-7 has-text-white"> Open source project </p>
+		</div>
+
+	</div>
+</main>
+<!-- /.hero-foot -->
+
+</section>
+<!-- /.hero -->
+<script src="script.js"></script>
+
+	</body>
+</html>
