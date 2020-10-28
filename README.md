@@ -1,1 +1,0 @@
-Bulma under construction template
